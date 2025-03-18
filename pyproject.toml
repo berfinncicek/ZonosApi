@@ -1,4 +1,4 @@
-[project]
+[project] 
 name = "zonos"
 version = "0.1.0"
 description = "Text-to-speech by Zyphra"
