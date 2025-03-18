@@ -1,4 +1,4 @@
-# Conditioning explanations
+# Conditioning explanations 
 Here we will list out all the conditionings the model accepts as well as a short description and some tips for optimal use. For conditionings with a learned unconditional, they can be set to that to allow the model to infer an appropriate setting.
 ### espeak
 - **Type:** `EspeakPhonemeConditioner`
