@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+torchaudio
+numpy
+pydantic
+starlette
+zonos
+requests
