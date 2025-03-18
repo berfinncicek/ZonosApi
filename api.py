@@ -1,4 +1,4 @@
-import torch
+import torch 
 import torchaudio
 import numpy as np
 from fastapi import FastAPI, UploadFile, File, HTTPException
