@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import Literal
 
 import torch
-
+ 
 
 # https://github.com/state-spaces/mamba/blob//mamba_ssm/utils/generation.py#L18
 @dataclass
