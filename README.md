@@ -1,42 +1,5 @@
 # Zonos-v0.1
  
-<div align="center">
-<img src="assets/ZonosHeader.png" 
-     alt="Alt text" 
-     style="width: 500px;
-            height: auto;
-            object-position: center top;">
-</div>
-
-<div align="center">
-  <a href="https://discord.gg/gTW9JwST8q" target="_blank">
-    <img src="https://img.shields.io/badge/Join%20Our%20Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>
-</div>
-
----
-
-Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers.
-
-Our model enables highly natural speech generation from text prompts when given a speaker embedding or audio prefix, and can accurately perform speech cloning when given a reference clip spanning just a few seconds. The conditioning setup also allows for fine control over speaking rate, pitch variation, audio quality, and emotions such as happiness, fear, sadness, and anger. The model outputs speech natively at 44kHz.
-
-##### For more details and speech samples, check out our blog [here](https://www.zyphra.com/post/beta-release-of-zonos-v0-1)
-
-##### We also have a hosted version available at [playground.zyphra.com/audio](https://playground.zyphra.com/audio)
-
----
-
-Zonos follows a straightforward architecture: text normalization and phonemization via eSpeak, followed by DAC token prediction through a transformer or hybrid backbone. An overview of the architecture can be seen below.
-
-<div align="center">
-<img src="assets/ArchitectureDiagram.png" 
-     alt="Alt text" 
-     style="width: 1000px;
-            height: auto;
-            object-position: center top;">
-</div>
-
----
 
 ## Usage
 
